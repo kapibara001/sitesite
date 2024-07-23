@@ -60,6 +60,7 @@
         }
 
         #form {
+            display: none;
             width: 90%;
             outline: none;
             margin: 10px 5%;
@@ -92,7 +93,7 @@
     </form>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
-        let tg = window.Telegram.WepApp();
+        let tg = window.Telegram.WepApp;
         let buy = document.getElementById("buy");
         let order = document.getElementById("order");
         tg.expand();
